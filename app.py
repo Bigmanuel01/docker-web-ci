@@ -55,7 +55,7 @@ ABOUT_PAGE = """
 </head>
 <body>
     <h1>About This App</h1>
-    <p>This is a demo Flask app used to learn Docker, GitHub Actions, and CI/CD pipelines.</p>
+    <p>This is me testing the CI changes I implemented.</p>
     <a href="/">Back to home</a>
 </body>
 </html>
