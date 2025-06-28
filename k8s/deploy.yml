@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: inspireme-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: inspireme
+  template:
+    metadata:
+      labels:
+        app: inspireme
+    spec:
+      containers:
+      - name: inspireme
+        image: bigzed12/inspireme:latest
+        ports:
+        - containerPort: 5000
