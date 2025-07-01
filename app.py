@@ -55,7 +55,7 @@ ABOUT_PAGE = """
 </head>
 <body>
     <h1>About This App</h1>
-    <p>This is me testing the CI changes I implemented. Working on fixes</p>
+    <p>This is me testing the CI changes I implemented. Fixing auto deployment issues.</p>
     <a href="/">Back to home</a>
 </body>
 </html>
