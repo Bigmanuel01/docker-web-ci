@@ -43,5 +43,5 @@ jobs:
           git config --global user.email "manuelokororie@gmail.com"
           git config --global user.name "Emmanuel Okororie"
           git add k8s/deploy.yml
-          git commit -m "[CI]: Update Kubernetes manifest with image tag ${{ github.run_id }}"
+          git commit -m "[CI]: Update Kubernetes manifest with image tag ${{ github.run_id }} [skip ci]"
           git push origin HEAD:main
