@@ -55,7 +55,7 @@ ABOUT_PAGE = """
 </head>
 <body>
     <h1>About This App</h1>
-    <p>This is me testing the CI changes I implemented. TESTING TO SEE IF ARGODC IS WORKING.</p>
+    <p>This is me testing the CI changes I implemented. TESTING TO SEE IF ARGOCD IS WORKING.</p>
     <a href="/">Back to home</a>
 </body>
 </html>
