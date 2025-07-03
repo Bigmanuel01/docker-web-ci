@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: inspireme
-        image: bigzed12/inspireme:16045403025
+        image: bigzed12/inspireme:16046477822
         ports:
         - containerPort: 5000
